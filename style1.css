@@ -1,0 +1,306 @@
+*, *::before, *::after {
+    margin:0;
+    padding:0;
+  box-sizing: border-box;
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 14px;
+}
+
+@media (min-width:900px){
+    *{font-size: 16px;}
+}
+
+
+
+.main-desktop{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding:0 72px;
+}
+
+.main-desktop h1{
+    text-align: left;
+    font-size: 56px;
+    margin-bottom: 49px;
+    line-height: 1.25;
+
+}
+
+.main-desktop img{
+    width:100%;
+    margin:-30px;
+}
+.main-desktop p{
+    text-align: left;
+    line-height: 1.5;
+    margin-bottom: 48px;
+}
+.main-desktop .btn{
+    text-align: left;
+    font-size: 16px;
+    line-height: 40px;
+    margin-bottom: 48px;
+} 
+    
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: grey;
+    
+}
+a:hover{
+    color:black;
+}
+
+header{
+    background-color: white;
+    box-shadow: 0 0 4px 2px #ddd;
+    /*position:fixed;*/
+    width:100%;
+    color: gray;
+    font-weight: 500;
+    z-index:99;
+
+}
+.clear{
+    height:112px;
+}
+.mr-auto{
+    margin-right: auto;
+}
+.header-mobile nav{
+    height:56px;
+    display: flex;
+    
+    align-items: center;
+    padding: 0 2.6%;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.header-desktop nav{
+    height:64px;
+    display: flex;
+    
+    align-items: center;
+    
+    padding: 0 2.6%;
+    border-bottom: 1px solid #ddd;
+  
+
+}
+header img{
+    height:34px;
+
+}
+.gmail-logo{
+    font-size: 24px;
+    color: #666;
+    text-align: center;
+    
+    margin-left: 8px;
+}
+.btn{
+    color:white;
+    background: #1a73e8 ;
+    font-size: 14px;
+    padding: 0 24px;
+    line-height: 30px;
+    border-radius: 2px;
+    letter-spacing: 0.75px;
+    font-weight: 600;
+}
+.btn:hover{
+    color:white;
+    background: #174ea6 ;
+}
+
+body { 
+    overflow-x: hidden; }
+
+footer {
+    padding: 32px 16px;
+    margin: 32px 16px;
+    background: #f8f8f8;
+}
+
+
+footer img{
+    height:36px;
+    margin: 0px 16px;
+    background-color: #f8f8f8;
+}   
+
+footer ul{
+    display: flex;
+    list-style: none;
+}
+
+footer li{
+    margin-right: 16px;
+}
+footer nav{
+    margin: 32px 16px;
+}
+
+footer select{
+    margin-left: 16px;
+    border: none;
+    background: #f8f8f8;
+
+}
+
+.icon{
+    color: white;
+    font-weight: 600;
+    background: black;
+    height:20px ;
+    width:20px ;
+    display: inline-block;
+    text-align: center;
+    border-radius: 99px;
+    margin-right: 8px;
+}
+
+/*Sections*/
+section{
+    padding: 48px 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1,h2{
+    font-size: 32px;
+    columns: #222222;
+    font-weight: 600;
+    margin:20px 0; 
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+h1{
+    font-size: 42px;
+}
+p {
+    text-align: center;
+    margin:12px;
+}
+.main{
+    background: #f8f8f8;
+}
+
+.main,.stay-organized,.never-drop-ball,.avoid-suspicion{
+    background: #f8f8f8;
+   
+}
+.stay-organized,.never-drop-ball{
+    margin-left: 32px;
+}
+
+.Get-gmail > * {
+    margin: 20px 0 ;
+}
+.Get-gmail img {
+ height: 72px;
+ 
+}
+.Get-gmail .btn{
+    line-height: 48px;
+} 
+
+.expgmail img{
+    height:48px;
+    margin-top: 20px;
+    display:inline-block;
+    max-width: NNNpx;
+   
+}
+.m4{
+    margin: 20px40px;
+}
+
+.device-section{
+    width:100%;
+    margin:0 auto;
+    position:relative;
+    height: auto;
+   
+
+}
+
+.mobile-only{
+
+}
+.desktop-only{
+   display: none;
+}
+
+.header-mobile{
+    position: fixed;
+}
+
+.header-desktop{
+    position:fixed;
+}
+
+.header-desktop a{
+    margin-left:20px;
+}
+
+.header-desktop .btn{
+    line-height: 48px;
+}
+.myDiv {
+    
+    display: inline-block;
+    
+    
+  }
+@media(min-width:800px){
+
+    h1{
+        font-size: 48px;
+    }
+
+    h2{
+        font-size: 42px;
+    }
+
+    .mobile-only{
+        display:none;
+        }
+    
+    .desktop-only{
+        display:block;
+    }
+    
+    .main-desktop{
+        display:grid;
+    }
+
+    .take-action-desktop{
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        column-gap: 5%;
+    }
+
+    section p,section h2{
+        text-align: left;
+    }
+
+   
+    .myDiv {
+       display: flex;
+          
+    }
+    .flex-child {
+        flex: 1;
+        
+    }  
+    
+}
+
+img{
+    max-width: 100%;}
